@@ -1,0 +1,27 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "Cloning Spotify front page as an exercise",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass --output-style compressed --include-path scss assets/css/sass/sources.scss assets/css/style.css",
+    "watch": "nodemon -e scss -x \"yarn run css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drenhat/spotify-clone.git"
+  },
+  "keywords": [],
+  "author": "Timothee Huerne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drenhat/spotify-clone/issues"
+  },
+  "homepage": "https://github.com/Drenhat/spotify-clone"
+}

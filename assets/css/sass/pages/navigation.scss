@@ -1,0 +1,23 @@
+nav {
+    background-color: $b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        width: 10%;
+    }
+
+    .menu {
+        color: $w;
+        list-style-type: none;
+        width: 40%;
+        display: flex;
+
+        li {
+            padding: 15px ;
+        }
+    }
+}
+
+ 
