@@ -1,0 +1,23 @@
+.hero {
+
+
+    .heading {
+
+
+        &_Xbig {
+            color: $g;
+            font-weight: 700;
+            width: 754px;
+            font-size: 104px;
+            line-height: 104px;
+            padding-bottom: 24px;
+            letter-spacing: -0.04em;
+        }
+
+        &_big {
+            color: $g; 
+        }
+
+    }
+
+}
