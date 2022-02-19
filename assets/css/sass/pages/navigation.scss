@@ -3,6 +3,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 50px;
     
 
     .logo {
@@ -12,7 +13,7 @@ nav {
     .menu {
         color: $w;
         list-style-type: none;
-        width: 40%;
+        max-width: 50%;
         display: flex;
 
         li {
