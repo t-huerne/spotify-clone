@@ -1,0 +1,30 @@
+.sidebar-nav{
+
+    height: 100vh;
+    background-color: $b;
+    width: 240px;
+    align-items: start;
+    padding : 0;
+    display: inline-flex;
+
+    .app-logo  {
+        width: 100%;
+    }
+
+    .menu {
+
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li {
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+        }
+    }
+}
